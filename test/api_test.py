@@ -1,7 +1,7 @@
 import requests
 
 url = 'http://localhost:8000/detect-license-plate/'
-files = {'file': open('./img/5686RDH.jpg', 'rb')}
+files = {'file': open('../img/5686RDH.jpg', 'rb')}
 response = requests.post(url, files=files)
 
 print(response.status_code)
