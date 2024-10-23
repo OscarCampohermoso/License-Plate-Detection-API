@@ -12,9 +12,9 @@ This FastAPI application detects license plates in images. It uses a pre-trained
 2. Create a new Conda environment with the necessary libraries:
 
 ```bash
-conda create -n license_plate_detection python=3.8
+conda create -n license_plate_detection python=3.10
 conda activate license_plate_detection
-pip install fastapi uvicorn numpy pillow opencv-python-headless requests ultralytics easyocr
+pip install fastapi uvicorn numpy pillow opencv-python-headless requests ultralytics easyocr python-multipart
 ```
 
 ### Run the API
