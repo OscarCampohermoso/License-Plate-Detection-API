@@ -46,7 +46,7 @@ def preprocess_image(image):
     
     height = thresh.shape[0]
     width = thresh.shape[1]
-    cropped_plate = thresh[int(height * 0.35):int(height * 0.85), int(width * 0.05):int(width * 0.95)]
+    cropped_plate = thresh[int(height * 0.33):int(height * 0.85), int(width * 0.05):int(width * 0.95)]
     
     return cropped_plate
 
